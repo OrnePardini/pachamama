@@ -1,0 +1,152 @@
+//FontFamily
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap');
+//font-family: 'Hind', sans-serif; font-family: 'Montserrat', sans-serif;
+
+//Reseteo
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+//Header
+header {
+    nav {
+        background-image: linear-gradient(to right, #e9e7da 70%, white);
+    }
+
+    img {
+        width: 150px;
+        padding: 5px;
+    }
+
+    .nav-link {
+        color: #cb997e;
+
+        &:hover {
+            color: $RosaViejo;
+            font-weight: bold;
+        }
+    }
+
+}
+
+
+//Footer 
+.footer {
+    background-color: #f4f3ee;
+    color: black;
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "footer__contactanos footer__pago footer__redes"
+        "footer__copyright footer__copyright footer__copyright";
+
+    h3 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 20px auto 10px auto;
+
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .footer__contactanos {
+        grid-area: footer__contactanos;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        ul {
+            display: flex;
+            justify-content: center;
+            img{
+                width: 40px;
+                margin: 5px;
+            }
+        }
+    }
+    
+
+    .footer__pago {
+        grid-area: footer__pago;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+
+        .footer__img {
+            display: flex;
+            margin: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            img {
+                width: 50px;
+                margin: 5px;
+            }
+        }
+    }
+
+    .footer__redes {
+        grid-area: footer__redes;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        ul {
+            display: flex;
+            justify-content: center;
+            img{
+                width: 40px;
+                margin: 5px;
+            }
+        }
+    }
+
+    .footer__copyright {
+        grid-area: footer__copyright;
+        text-align: center;
+        background-color: black;
+        color: white;
+    
+       h4,p {
+        font-size: 13px;
+        margin: 10px auto;
+       }
+    }
+
+    .footer__copyright {
+        grid-area: footer__copyright;
+        text-align: center;
+        background-color: black;
+        color: white;
+        height: 10vh;
+    }
+
+}
+
+
+// Tamaño Mediano
+@media(max-width: 740px) {
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr .5fr;
+        grid-template-areas:
+            "footer__contactanos"
+            "footer__pago"
+            "footer__redes"
+            "footer__copyright";
+        }
+}
