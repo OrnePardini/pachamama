@@ -25,7 +25,7 @@ header .nav-link:hover {
   background-color: #e9e7da;
   background-color: black;
   color: #a4755b;
-  color: #e58461;
+  color: rgb(255, 210, 204);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -50,9 +50,8 @@ header .nav-link:hover {
   font-size: 1.5rem;
 }
 .footer .footer__rrss i:hover {
-  color: #a4755b;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .footer .footer__copyright {
   grid-area: footer__copyright;
