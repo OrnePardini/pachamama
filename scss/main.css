@@ -22,98 +22,52 @@ header .nav-link:hover {
 }
 
 .footer {
-  background-color: #f4f3ee;
-  color: black;
+  background-color: #e9e7da;
+  color: #a4755b;
   display: grid;
-  align-items: end;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "footer__contactanos footer__pago footer__redes" "footer__copyright footer__copyright footer__copyright";
+  grid-template-areas: "footer__envios footer__mediosPago footer__sitioSeguro footer__muestras" "footer__rrss footer__rrss footer__copyright footer__copyright ";
 }
 .footer h3 {
   text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  margin: 20px auto 10px auto;
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 20px auto;
 }
-.footer li {
-  list-style: none;
-}
-.footer .footer__contactanos {
-  grid-area: footer__contactanos;
-  text-align: center;
+.footer .footer__rrss {
+  grid-area: footer__rrss;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
-}
-.footer .footer__contactanos ul {
-  display: flex;
   justify-content: center;
 }
-.footer .footer__contactanos ul img {
-  width: 40px;
-  margin: 5px;
-}
-.footer .footer__pago {
-  grid-area: footer__pago;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
-}
-.footer .footer__pago .footer__img {
-  display: flex;
+.footer .footer__rrss i {
+  color: rgb(85, 85, 85);
   margin: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  font-size: 1.5rem;
 }
-.footer .footer__pago .footer__img img {
-  width: 50px;
-  margin: 5px;
+.footer .footer__rrss i:hover {
+  color: #a4755b;
+  font-weight: bold;
+  font-size: 2rem;
 }
-.footer .footer__redes {
-  grid-area: footer__redes;
-  text-align: center;
+.footer .footer__copyright {
+  grid-area: footer__copyright;
+  color: rgb(85, 85, 85);
   display: flex;
   align-items: center;
-  flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
-}
-.footer .footer__redes ul {
-  display: flex;
   justify-content: center;
 }
-.footer .footer__redes ul img {
-  width: 40px;
-  margin: 5px;
-}
-.footer .footer__copyright {
-  grid-area: footer__copyright;
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-.footer .footer__copyright h4, .footer .footer__copyright p {
-  font-size: 13px;
-  margin: 10px auto;
-}
-.footer .footer__copyright {
-  grid-area: footer__copyright;
-  text-align: center;
-  background-color: black;
-  color: white;
-  height: 10vh;
+.footer .footer__copyright h4 {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 @media (max-width: 740px) {
   .footer {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.5fr;
-    grid-template-areas: "footer__contactanos" "footer__pago" "footer__redes" "footer__copyright";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "footer__envios" "footer__mediosPago" "footer__sitioSeguro" "footer__muestras" "footer__rrss" "footer__copyright";
   }
 }
 .mainIndex {
