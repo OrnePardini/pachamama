@@ -190,6 +190,29 @@ header .nav-link:hover {
   background-color: black;
   color: #e58461;
 }
+.mainProductos .prodsBackbround .pages {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.mainProductos .prodsBackbround .pages p {
+  margin-right: 10px;
+  font-weight: 600;
+}
+.mainProductos .prodsBackbround .pages button {
+  background-color: rgba(240, 255, 255, 0.662);
+  color: black;
+}
+.mainProductos .prodsBackbround .pages button:hover {
+  background-color: black;
+  color: #e58461;
+}
+.mainProductos .prodsBackbround .pages i {
+  color: #e58461;
+}
 
 .quienesSomos {
   background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166");
@@ -274,6 +297,7 @@ header .nav-link:hover {
   display: flex;
   margin-top: 15px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .mainFaq .faqBackground .container.text-center .row .col ul img {
   width: 4rem;
@@ -318,6 +342,7 @@ header .nav-link:hover {
   align-content: center;
   justify-content: center;
   align-items: center;
+  resize: none;
 }
 .mainContacto .contactoBackground form input,
 .mainContacto .contactoBackground form textarea {

@@ -29,13 +29,14 @@
             align-content: center;
             justify-content: center;
             align-items: center;
+            resize: none;
 
             input,
             textarea {
-                 margin: 8px 160px;
-                 padding: 10px;
-                 text-align: center;
-                 font-size: 120%;
+                margin: 8px 160px;
+                padding: 10px;
+                text-align: center;
+                font-size: 120%;
             }
 
             a.btn.btnColor {
@@ -60,11 +61,11 @@
         .contactoBackground {
             form {
                 width: 90%;
-                .form-control{
+
+                .form-control {
                     width: 90%;
-                }             
+                }
             }
         }
     }
 }
-
