@@ -26,12 +26,24 @@
                         padding: 10px;
                         text-align: center;
                     }
-
                     .fa-heart,
                     .fa-hands-bubbles,
-                    .fa-soap {
+                    .fa-soap,
+                    .fa-credit-card,
+                    .fa-truck {
                         font-size: 3rem;
                     }
+                    ul{
+                        list-style: none;
+                        display: flex;
+                        margin-top: 15px;
+                        flex-wrap: wrap;
+                        img{
+                            width: 4rem;
+                            margin: 5px;
+                        }
+                    }
+                    
                 }
             }
         }
