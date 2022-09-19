@@ -23,7 +23,9 @@ header .nav-link:hover {
 
 .footer {
   background-color: #e9e7da;
+  background-color: black;
   color: #a4755b;
+  color: #e58461;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -43,6 +45,7 @@ header .nav-link:hover {
 }
 .footer .footer__rrss i {
   color: rgb(85, 85, 85);
+  color: #e58461;
   margin: 10px;
   font-size: 1.5rem;
 }
@@ -54,6 +57,7 @@ header .nav-link:hover {
 .footer .footer__copyright {
   grid-area: footer__copyright;
   color: rgb(85, 85, 85);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
