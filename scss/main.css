@@ -46,14 +46,13 @@ header .nav-link:hover {
 .footer .footer__rrss i {
   color: rgb(85, 85, 85);
   color: #e58461;
-  color: rgb(208, 204, 204);
   margin: 10px;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .footer .footer__rrss i:hover {
-  color: #e58461;
+  color: white;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .footer .footer__copyright {
   grid-area: footer__copyright;

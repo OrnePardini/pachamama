@@ -63,14 +63,13 @@ header {
         i {
             color: rgb(85, 85, 85);
             color: $RosaViejo;
-            color: rgb(208, 204, 204);
             margin: 10px;
-            font-size: 1.5rem;
+            font-size: 2.5rem;
 
             &:hover {
-                color:$RosaViejo;
+                color: white;
                 font-weight: bold;
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
         }
     }
