@@ -216,23 +216,18 @@ header .nav-link:hover {
   line-height: 2;
   padding: 10px 66px;
 }
-.quienesSomos .qsBackbround .video {
-  background-color: rgba(233, 231, 218, 0.462745098);
-  padding: 10px 8px;
-  margin: 0 75px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.quienesSomos .qsBackbround .video h2 {
+.quienesSomos .qsBackbround .col h2 {
   color: #e58461;
   font-weight: 600;
 }
+.quienesSomos .qsBackbround .col iframe {
+  width: 560px;
+  height: 315px;
+}
 
-@media (max-width: 740px) {
-  .video h2,
-.video iframe {
-    display: none;
+@media (max-width: 640px) {
+  iframe {
+    max-width: 100%;
   }
 }
 .mainFaq {

@@ -25,30 +25,25 @@
                 line-height: 2;
                 padding: 10px 66px;
             }
-        }
-
-        .video {
-            background-color: #e9e7da76;
-            padding: 10px 8px;
-            margin: 0 75px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
             h2 {
                 color: $RosaViejo;
                 font-weight: 600;
             }
-        }
+            iframe{
+                width: 560px;
+                height: 315px;
+            }
+        }        
+           
+
+        
     }
 }
 
 
 // Tamaño Mediano
-@media(max-width: 740px) {  
-    .video h2,
-    .video iframe {
-        display: none;
-    }
-    
+@media(max-width: 640px) {  
+    iframe{
+        max-width:100%;
+    }    
 }
