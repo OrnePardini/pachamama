@@ -276,6 +276,11 @@ header .nav-link:hover {
   margin: 5px;
 }
 
+@media (max-width: 740px) {
+  .row {
+    flex-direction: column;
+  }
+}
 .mainContacto {
   background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/sorbete-aluminio1-836ec43b0fe50a332515730477862939-1024-1024.jpg");
   background-size: cover;
@@ -283,11 +288,11 @@ header .nav-link:hover {
   background-position: center;
 }
 .mainContacto .contactoBackground {
+  background-color: rgba(240, 255, 255, 0.844);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(240, 255, 255, 0.844);
 }
 .mainContacto .contactoBackground .titulos {
   font-size: 2.5rem;
@@ -302,9 +307,6 @@ header .nav-link:hover {
   text-align: center;
   font-size: 120%;
   color: black;
-}
-.mainContacto .contactoBackground .escribinos {
-  font-weight: 600;
 }
 .mainContacto .contactoBackground form {
   display: flex;
