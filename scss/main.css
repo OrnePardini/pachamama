@@ -281,6 +281,12 @@ header .nav-link:hover {
   padding: 10px;
   text-align: center;
 }
+.mainFaq .faqBackground .container.text-center .row .col h2:hover {
+  font-size: 2rem;
+  transition: 2s;
+  color: #e58461;
+  font-weight: 600;
+}
 .mainFaq .faqBackground .container.text-center .row .col p {
   padding: 10px;
   text-align: center;

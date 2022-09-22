@@ -20,12 +20,21 @@
                         margin: 10px 5px;
                         padding: 10px;
                         text-align: center;
+
+                        &:hover {
+                            font-size: 2rem;
+                            transition: 2s;
+                            color: $RosaViejo;
+                            font-weight: 600;
+
+                        }
                     }
 
                     p {
                         padding: 10px;
                         text-align: center;
                     }
+
                     .fa-heart,
                     .fa-hands-bubbles,
                     .fa-soap,
@@ -33,18 +42,20 @@
                     .fa-truck {
                         font-size: 3rem;
                     }
-                    ul{
+
+                    ul {
                         list-style: none;
                         display: flex;
                         margin-top: 15px;
                         flex-wrap: wrap;
                         justify-content: center;
-                        img{
+
+                        img {
                             width: 4rem;
                             margin: 5px;
                         }
                     }
-                    
+
                 }
             }
         }
@@ -53,8 +64,8 @@
 }
 
 
-@media(max-width: 740px){
-    .faqBackground .row{
+@media(max-width: 740px) {
+    .faqBackground .row {
         flex-direction: column;
     }
 }
