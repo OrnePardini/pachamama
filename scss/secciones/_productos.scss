@@ -14,7 +14,6 @@
         }
 
         .container.filter {
-            background-color: rgba(255, 255, 255, 0.956);
             border-radius: 0%;
 
             .row {
@@ -89,22 +88,26 @@
             justify-content: center;
             align-items: center;
             margin: 15px;
-            p{
+
+            p {
                 margin-right: 10px;
                 font-weight: 600;
             }
-            button{
+
+            button {
                 background-color: rgba(240, 255, 255, 0.662);
                 color: black;
-                &:hover{
+
+                &:hover {
                     background-color: black;
                     color: $RosaViejo;
                 }
             }
-            i{
+
+            i {
                 color: $RosaViejo;
             }
-           
+
         }
 
     }
